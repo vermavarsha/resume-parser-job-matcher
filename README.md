@@ -6,7 +6,7 @@ This project matches uploaded resumes to job descriptions using **Semantic Simil
 
 ## 🌐 Live Demo
 
-🔗 [Click here to try the app](https://your-streamlit-link.streamlit.app)  
+🔗 [Click here to try the app](https://resume-parser-job-matcher-7gjuz42zi35pkunvcseckj.streamlit.app/)  
 
 ---
 
