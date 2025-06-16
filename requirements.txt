@@ -1,0 +1,6 @@
+streamlit
+python_docx
+PyMuPDF
+sentence-transformers 
+pandas
+nltk
