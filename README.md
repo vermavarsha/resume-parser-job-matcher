@@ -1,47 +1,55 @@
+# 📄 Resume Parser + Job Matcher using Sentence-BERT
 
-##📄 Resume Parser + Job Matcher using Sentence-BERT
-This project matches uploaded resumes to job descriptions using Semantic Similarity via Sentence-BERT and provides a Streamlit UI for easy interaction.
+This project matches uploaded resumes to job descriptions using **Semantic Similarity** via **Sentence-BERT** and provides a **Streamlit UI** for easy interaction.
 
-#🚀 Features
-✅ Upload multiple resumes (.pdf, .docx)
+---
 
-✅ Auto-extract candidate details (name, email, phone, skills,experience)
+## 🌐 Live Demo
 
-✅ Add multiple job descriptions and titles
+🔗 [Click here to try the app](https://your-streamlit-link.streamlit.app)  
 
-✅ Compute semantic similarity using Sentence-BERT
+---
 
-✅ View, rank, and download match results as CSV
+## 🚀 Features
 
-#🛠️ Tech Stack
-Frontend: Streamlit
+- ✅ Upload multiple resumes (`.pdf`, `.docx`)
+- ✅ Auto-extract candidate details (name, email, phone, skills)
+- ✅ Add multiple job descriptions and titles
+- ✅ Compute semantic similarity using **Sentence-BERT**
+- ✅ View, rank, and download match results as CSV
 
-NLP: Sentence-Transformers
+---
 
-Parsing: PyMuPDF, docx, re
+## 🛠️ Tech Stack
 
-Languages: Python
+- **Frontend**: [Streamlit](https://streamlit.io/)
+- **NLP**: [Sentence-Transformers](https://www.sbert.net/)
+- **Parsing**: `PyMuPDF`, `docx`, `re`
+- **Languages**: Python
 
-#📦 Installation
+---
 
-1. Clone the repo
-git clone https://github.com/vermavarsha/resume-matcher.git
+## 📦 Installation
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/vermavarsha/resume-parser-job-matcherr.git
 cd resume-parser-job-matcher
 
-2. Create virtual environment
+# 2. Create virtual environment
 python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
 
-3. Install dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
 
-4. Run the Streamlit app
+# 4. Run the Streamlit app
 streamlit run main.py
 
-#📂 Project Structure
-bash
-Copy
-Edit
+
+---
+## 📂 Project Structure
+
 resume-matcher/
 │
 ├── parser.py              # Resume text & detail extraction
@@ -63,22 +71,23 @@ Job titles: Data Analyst, Backend Developer
 Job descriptions (separated by ---):
 
 Looking for someone with Python, SQL, and visualization.
----
+  ---
 Must know Java, Spring Boot, REST APIs, databases.
+```
+--- 
 
-📊 Output
+## 📊 Output
 Resume matches for each job
 
-Candidate name, skills, email, phone
+Candidate name, skills,experience, email, phone
 
 Match percentage score
 
 Downloadable .csv
 
-#🌐 Live Demo
-🔗 Click here to try the app
+---
 
-#💡 Future Enhancements
+## 💡 Future Enhancements
 Resume tagging/classification
 
 GloVe/BERT fine-tuning
